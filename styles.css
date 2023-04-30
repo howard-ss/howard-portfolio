@@ -30,9 +30,9 @@ p {
 
 a {
     color: rgb(162, 0, 255);
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
-    font-weight: 100;
+    font-weight: 600;
 }
 
 .dark a {
@@ -198,7 +198,7 @@ header {
 }
 
 #css {
-    left: 250px;
+    left: 220px;
     bottom: 240px;
     background-image: url("images/CSS.png");
     background-size: cover;
@@ -216,7 +216,7 @@ header {
 }
 
 #javascript {
-    left: 450px;
+    left: 420px;
     bottom: 200px;
     background-image: url("images/javascript.png");
     background-size: cover;
@@ -252,7 +252,7 @@ header {
 }
 
 #node {
-    left: 200px;
+    left: 230px;
     bottom: 20px;
     background-image: url("images/Node.png");
     background-size: cover;
@@ -269,6 +269,23 @@ header {
     background-color: rgb(38, 74, 51);
 }
 
+#aws {
+    left: 10px;
+    bottom: 20px;
+    background-image: url("images/AWS.png");
+    background-size: cover;
+    background-color: rgb(235, 238, 239);
+    box-shadow:-80px 60px 20px rgba(227, 211, 211, 0.15);
+    
+}
+
+#aws:before {
+    background-color: rgba(222, 234, 237, 0.62);
+}
+
+#aws:after {
+    background-color: rgb(237, 248, 248);
+}
 
 footer {
     display: flex;
