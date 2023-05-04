@@ -131,8 +131,8 @@ header {
     background-size: cover;
 }
 
-#photo-gallery {
-    background-image: url("images/photo.png");
+#weather-app {
+    background-image: url("images/weather.png");
     background-size: cover;
 }
 
